@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Books</h1>
+
+<%== pagy_nav(@pagy) %>
+
+<%= @links_hash %>
+
+
+<div id="books">
+  <% @books.each do |book| %>    
+    <p>
+      <%= render book %>
+      <%= link_to "Show this book", book %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New book", new_book_path %>
