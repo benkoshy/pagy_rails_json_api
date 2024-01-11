@@ -6,3 +6,10 @@ This is a demo app for the `pagy` jsonapi feature. As of: 2024-01-11, this featu
 2. `bundle install`
 3. `rakde db:migrate db:seed`
 4. `rails s` and navigate to the following page: http://[::1]:3000/
+
+
+Click here:
+
+http://[::1]:3000/?page=4&items=20
+
+![](./app/assets/images/reserved_param_error.png) 
