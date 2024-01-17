@@ -67,4 +67,4 @@ group :test do
 end
 
 # get it directly from the jsonapi branch - because this is not yet released
-gem "pagy", git: 'https://github.com/ddnexus/pagy', branch: 'jsonapi'
+gem "pagy", git: 'https://github.com/ddnexus/pagy', branch: 'jsonapi-fix'
